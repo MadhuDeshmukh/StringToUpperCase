@@ -1,0 +1,13 @@
+<taglib>
+	<jsp-version>1.1</jsp-version>
+	<tlib-version>1.0</tlib-version>
+	<tag>
+		<name>string</name>
+		<tag-class>com.demo.tags.StringTagHandler</tag-class>
+		<attribute>
+         <name>text</name>
+         <required>true</required>
+         <rtexprvalue>true</rtexprvalue>
+    </attribute>
+	</tag>
+</taglib>
